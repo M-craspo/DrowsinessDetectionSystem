@@ -36,7 +36,7 @@ LEFT_EYE = [362, 385, 387, 263, 373, 380]
 RIGHT_EYE = [33, 160, 158, 133, 153, 144]
 
 # Encoded MP3 alarm sound (base64 string of a simple beep sound)
-mp3_file_path = "/Users/mahmoudahmed/Downloads/DrowsinessDetectionSystem-main/zapsplat_sport_air_horn_2x_blasts_001_21150.mp3"
+mp3_file_path = "alarm.mp3"
 
 # Read the MP3 file and encode it to Base64
 with open(mp3_file_path, "rb") as mp3_file:
