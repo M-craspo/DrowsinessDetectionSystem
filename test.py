@@ -18,7 +18,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 face_mesh = mp_face_mesh.FaceMesh(
     max_num_faces=1,
-    refine_landmarks=True,
+    refine_landmarks=False,
     min_detection_confidence=0.5,
     min_tracking_confidence=0.5
 )
